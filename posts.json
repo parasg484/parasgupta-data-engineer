@@ -1,0 +1,16 @@
+[
+  {
+    "id": "schema-evolution",
+    "title": "Handling schema evolution in ingestion pipelines",
+    "topic": "Lakehouse",
+    "date": "2026-05-17",
+    "body": "While building metadata-driven ingestion, I learned to treat schema change as a normal operating condition. A practical pattern is to capture source metadata, validate drift before transformation, and keep raw payloads available so downstream fixes do not require a full source replay."
+  },
+  {
+    "id": "spark-cost",
+    "title": "Small Spark tuning habits that reduce cost",
+    "topic": "PySpark",
+    "date": "2026-05-17",
+    "body": "Partition pruning, join strategy, cached intermediate frames, and Delta table layout can change both runtime and cloud cost. The biggest lesson: measure each optimization with the job context, because the same change can help one pipeline and hurt another."
+  }
+]

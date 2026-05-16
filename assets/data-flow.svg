@@ -1,0 +1,69 @@
+<svg width="1200" height="780" viewBox="0 0 1200 780" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Data engineering pipeline visual</title>
+  <desc id="desc">A layered data pipeline moving from APIs and streaming sources into a governed lakehouse and analytics layer.</desc>
+  <rect width="1200" height="780" rx="36" fill="#F5F7FA"/>
+  <path d="M0 84C165 24 295 42 438 96C617 164 745 70 904 46C1026 28 1118 42 1200 80V780H0V84Z" fill="#DCE9F2"/>
+  <path d="M0 470C141 409 273 392 441 440C609 489 748 555 934 499C1069 458 1155 478 1200 501V780H0V470Z" fill="#CFE3D6"/>
+  <g opacity=".95">
+    <rect x="76" y="112" width="204" height="128" rx="22" fill="#FFFFFF" stroke="#1F3A4A" stroke-width="3"/>
+    <rect x="106" y="145" width="52" height="52" rx="12" fill="#F2B84B"/>
+    <rect x="176" y="149" width="70" height="10" rx="5" fill="#29475A"/>
+    <rect x="176" y="174" width="48" height="10" rx="5" fill="#6E8795"/>
+    <rect x="176" y="199" width="82" height="10" rx="5" fill="#6E8795"/>
+    <text x="105" y="268" fill="#1F3A4A" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">REST APIs</text>
+  </g>
+  <g opacity=".95">
+    <rect x="76" y="318" width="204" height="128" rx="22" fill="#FFFFFF" stroke="#1F3A4A" stroke-width="3"/>
+    <circle cx="132" cy="382" r="28" fill="#E46F61"/>
+    <path d="M126 366L148 382L126 398V366Z" fill="#FFFFFF"/>
+    <rect x="176" y="356" width="70" height="10" rx="5" fill="#29475A"/>
+    <rect x="176" y="381" width="48" height="10" rx="5" fill="#6E8795"/>
+    <rect x="176" y="406" width="82" height="10" rx="5" fill="#6E8795"/>
+    <text x="106" y="474" fill="#1F3A4A" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Clickstreams</text>
+  </g>
+  <g opacity=".95">
+    <rect x="76" y="524" width="204" height="128" rx="22" fill="#FFFFFF" stroke="#1F3A4A" stroke-width="3"/>
+    <rect x="112" y="557" width="88" height="58" rx="12" fill="#4B8F8C"/>
+    <path d="M122 580H190M122 596H176" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+    <rect x="214" y="563" width="40" height="10" rx="5" fill="#29475A"/>
+    <rect x="214" y="588" width="52" height="10" rx="5" fill="#6E8795"/>
+    <text x="107" y="680" fill="#1F3A4A" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">SFTP / DB</text>
+  </g>
+  <path d="M312 176H418" stroke="#27475B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M393 150L424 176L393 202" stroke="#27475B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M312 382H418" stroke="#27475B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M393 356L424 382L393 408" stroke="#27475B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M312 588H418" stroke="#27475B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M393 562L424 588L393 614" stroke="#27475B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g>
+    <rect x="446" y="138" width="308" height="476" rx="34" fill="#FFFFFF" stroke="#1F3A4A" stroke-width="4"/>
+    <text x="506" y="205" fill="#1F3A4A" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">Lakehouse</text>
+    <rect x="502" y="246" width="196" height="70" rx="16" fill="#E8EEF2"/>
+    <text x="550" y="291" fill="#1F3A4A" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Bronze</text>
+    <rect x="502" y="346" width="196" height="70" rx="16" fill="#DDEAD8"/>
+    <text x="558" y="391" fill="#1F3A4A" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Silver</text>
+    <rect x="502" y="446" width="196" height="70" rx="16" fill="#F8E1A7"/>
+    <text x="566" y="491" fill="#1F3A4A" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Gold</text>
+    <path d="M600 316V342M600 416V442" stroke="#1F3A4A" stroke-width="7" stroke-linecap="round"/>
+    <path d="M582 331L600 348L618 331M582 431L600 448L618 431" stroke="#1F3A4A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text fill="#536B78" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">
+      <tspan x="507" y="556">Databricks • Delta Lake</tspan>
+      <tspan x="542" y="582">Apache Iceberg</tspan>
+    </text>
+  </g>
+  <path d="M784 376H890" stroke="#27475B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M865 350L896 376L865 402" stroke="#27475B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g>
+    <rect x="920" y="178" width="204" height="160" rx="24" fill="#FFFFFF" stroke="#1F3A4A" stroke-width="3"/>
+    <rect x="966" y="230" width="26" height="58" rx="8" fill="#4B8F8C"/>
+    <rect x="1008" y="206" width="26" height="82" rx="8" fill="#F2B84B"/>
+    <rect x="1050" y="250" width="26" height="38" rx="8" fill="#E46F61"/>
+    <text x="962" y="372" fill="#1F3A4A" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">BI Metrics</text>
+  </g>
+  <g>
+    <rect x="920" y="444" width="204" height="160" rx="24" fill="#FFFFFF" stroke="#1F3A4A" stroke-width="3"/>
+    <circle cx="1022" cy="504" r="42" fill="#DDEAD8" stroke="#4B8F8C" stroke-width="10"/>
+    <path d="M1022 462V504L1050 532" stroke="#1F3A4A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="958" y="638" fill="#1F3A4A" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">Lineage</text>
+  </g>
+</svg>

@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Paras Gupta portfolio - Data Engineer building scalable lakehouse, streaming, and analytics systems.">
+    <title>Paras Gupta | Data Engineer</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Paras Gupta home">PG</a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Data Engineer • Azure Lakehouse • Streaming Analytics</p>
+          <h1>Paras Gupta</h1>
+          <p class="lead">I build reliable data platforms that move messy operational data into governed, analytics-ready lakehouse systems.</p>
+          <div class="hero-actions" aria-label="Contact links">
+            <a class="button primary" href="mailto:parasg484@gmail.com">Email Me</a>
+            <a class="button" href="https://www.linkedin.com/in/paras-gupta-7323ab193/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="button" href="./assets/Paras_Gupta_Resume_DE_15May.pdf" target="_blank" rel="noreferrer">Resume</a>
+            <a class="button" href="#blog">Learning Blog</a>
+          </div>
+          <dl class="impact-strip" aria-label="Career impact highlights">
+            <div>
+              <dt>20M+</dt>
+              <dd>daily loan clickstream events</dd>
+            </div>
+            <div>
+              <dt>40%</dt>
+              <dd>Databricks overhead reduction</dd>
+            </div>
+            <div>
+              <dt>30%</dt>
+              <dd>faster pipeline runtimes</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-visual" aria-label="Data pipeline illustration">
+          <img src="./assets/data-flow.svg" alt="Layered data engineering pipeline from source systems to lakehouse and analytics">
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Engineering data products from ingestion to insight.</h2>
+        </div>
+        <div class="about-grid">
+          <p>I am a Data Engineer based in Noida, India, currently working on HDFC Bank loan analytics at NexGen Tech. My work spans batch and near real-time ingestion, PySpark transformations, lakehouse modeling, data governance, and BI-ready metric layers.</p>
+          <p>Before NexGen, I worked with MAQ Software for Microsoft Modern Work analytics, improving a Databricks medallion lakehouse and building PySpark, SQL, and Power BI solutions for sales and operations teams.</p>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Recent roles</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">Jun 2025 - Present</div>
+            <div>
+              <h3>Data Engineer 2</h3>
+              <p class="muted">NexGen Tech • Client: HDFC Bank • Noida</p>
+              <ul>
+                <li>Migrated HDFC loan analytics from Azure Data Lake to a Lakehouse using Apache Iceberg tables on Trino and Python-based Airflow DAGs.</li>
+                <li>Built ingestion pipelines from REST APIs, Adobe Analytics, Kibana/Elasticsearch, PostgreSQL, and SFTP with incremental loading and schema evolution handling.</li>
+                <li>Contributed to Kafka, Pub/Sub, and Azure Data Factory streaming patterns for low-latency processing of 20M+ daily events.</li>
+                <li>Used Unity Catalog for governance, access control, and lineage across architecture, BI, and QA teams.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">Jan 2023 - May 2025</div>
+            <div>
+              <h3>Data Engineer 1</h3>
+              <p class="muted">MAQ Software • Client: Microsoft • Noida</p>
+              <ul>
+                <li>Enhanced a Bronze, Silver, Gold Delta Lakehouse in Azure Databricks for scalability, data quality, governance, and analytics readiness.</li>
+                <li>Reduced notebook overhead by 40% through caching, Spark configuration, partitioning, and query tuning.</li>
+                <li>Developed PySpark and SQL transformation pipelines that improved sales decision-making by 15%.</li>
+                <li>Built Power BI dashboards and optimized DAX/data models to reduce refresh times by 25%.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected data platforms</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="tag">Lakehouse Migration</p>
+            <h3>Personal & Business Loan Engine Analytics</h3>
+            <p>Led migration from Azure Data Lake to a governed Lakehouse for HDFC Bank loan analytics, ingesting APIs, Adobe Analytics, Elasticsearch, and SFTP feeds into analytics-ready datasets.</p>
+            <div class="stack">PySpark • SQL • Airflow • Apache Iceberg • Trino • Kafka • Unity Catalog</div>
+          </article>
+          <article class="project-card">
+            <p class="tag">Modern Work Analytics</p>
+            <h3>Microsoft Modern Work Sales Engine</h3>
+            <p>Improved a medallion Delta Lakehouse and built KPI pipelines and Power BI dashboards for sales funnel analytics, self-serve reporting, and operating decision support.</p>
+            <div class="stack">Azure Databricks • Delta Lake • PySpark • SQL • Power BI • DAX</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools I use to ship data systems</h2>
+        </div>
+        <div class="skills-grid">
+          <div>
+            <h3>Languages</h3>
+            <p>Python, SQL, PySpark, DAX, KQL, Bash</p>
+          </div>
+          <div>
+            <h3>Lakehouse</h3>
+            <p>Apache Iceberg, Trino, Delta Lake, ADLS Gen2, Azure Blob Storage, Unity Catalog, Medallion Architecture</p>
+          </div>
+          <div>
+            <h3>Orchestration</h3>
+            <p>Apache Airflow, Azure Data Factory, Databricks Workflows, ETL/ELT pipelines</p>
+          </div>
+          <div>
+            <h3>Streaming & Sources</h3>
+            <p>Kafka, Pub/Sub, REST APIs, Adobe Analytics API, Elasticsearch/Kibana API, SFTP, PostgreSQL, SQL Server</p>
+          </div>
+          <div>
+            <h3>Cloud & DevOps</h3>
+            <p>Azure Databricks, Azure Key Vault, Logic Apps, Git, Azure DevOps, CI/CD</p>
+          </div>
+          <div>
+            <h3>Reporting</h3>
+            <p>Power BI, DAX optimization, data modeling, KPI dashboards</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section resume-section" id="resume">
+        <div class="section-heading">
+          <p class="eyebrow">Resume</p>
+          <h2>A compact snapshot, with the full PDF ready for recruiters.</h2>
+        </div>
+        <div class="resume-layout">
+          <div class="resume-console">
+            <div class="resume-window">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="resume-line">
+              <span class="prompt">role</span>
+              <strong>Data Engineer 2</strong>
+            </div>
+            <div class="resume-line">
+              <span class="prompt">current</span>
+              <strong>NexGen Tech / HDFC Bank</strong>
+            </div>
+            <div class="resume-line">
+              <span class="prompt">previous</span>
+              <strong>MAQ Software / Microsoft</strong>
+            </div>
+            <div class="resume-line">
+              <span class="prompt">cert</span>
+              <strong>Microsoft Fabric Certified Data Engineer</strong>
+            </div>
+            <div class="resume-actions">
+              <a class="button primary" href="./assets/Paras_Gupta_Resume_DE_15May.pdf" target="_blank" rel="noreferrer">Open Resume</a>
+              <a class="button" href="./assets/Paras_Gupta_Resume_DE_15May.pdf" download>Download PDF</a>
+            </div>
+          </div>
+          <div class="resume-preview" aria-label="Resume preview">
+            <object data="./assets/Paras_Gupta_Resume_DE_15May.pdf#toolbar=0&navpanes=0" type="application/pdf">
+              <a href="./assets/Paras_Gupta_Resume_DE_15May.pdf" target="_blank" rel="noreferrer">Open Paras Gupta Resume PDF</a>
+            </object>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="blog">
+        <div class="section-heading">
+          <p class="eyebrow">Blog</p>
+          <h2>Learning notes from live data engineering work</h2>
+        </div>
+        <div class="blog-layout">
+          <form class="blog-editor" id="blogForm">
+            <label>
+              Title
+              <input id="postTitle" name="title" type="text" placeholder="What I learned about schema evolution" required>
+            </label>
+            <label>
+              Topic
+              <input id="postTopic" name="topic" type="text" placeholder="Airflow, Spark, Kafka, Lakehouse">
+            </label>
+            <label>
+              Notes
+              <textarea id="postBody" name="body" rows="7" placeholder="Write a short practical note from your project learning..." required></textarea>
+            </label>
+            <label>
+              Attach PDF
+              <input id="postPdf" name="pdf" type="file" accept="application/pdf">
+            </label>
+            <div class="editor-actions">
+              <button class="button primary" type="submit">Publish Locally</button>
+              <button class="button" type="button" id="exportPosts">Export</button>
+              <label class="button file-button">
+                Import
+                <input id="importPosts" type="file" accept="application/json">
+              </label>
+            </div>
+          </form>
+          <div class="posts" id="posts" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s talk data platforms.</h2>
+          <p>I’m interested in data engineering roles and conversations around lakehouse architecture, PySpark optimization, governed analytics, and streaming ingestion.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:parasg484@gmail.com">parasg484@gmail.com</a>
+          <a href="tel:+918127683667">+91 8127683667</a>
+          <a href="https://www.linkedin.com/in/paras-gupta-7323ab193/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://leetcode.com/parasg484/" target="_blank" rel="noreferrer">LeetCode</a>
+          <a href="https://www.hackerrank.com/A_1903480100072" target="_blank" rel="noreferrer">HackerRank</a>
+          <a href="https://learn.microsoft.com/en-us/users/parasguptamaqsoftware-7785/transcript/v262rfo1wq94kjr" target="_blank" rel="noreferrer">Microsoft Transcript</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Paras Gupta</span>
+      <span>Data Engineer</span>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
